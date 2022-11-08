@@ -20,7 +20,7 @@ const port =5000;
 
 const start = async () => {
   try {
-    await connectDB('mongodb+srv://hashmi:hashmi@cluster0.esdwjz0.mongodb.net/MytaskManager?retryWrites=true&w=majority'); //user your database link here;
+    await connectDB(''); //user your database link here;
 
     app.listen(port, () =>
       console.log(`Server is listening on port ${port}...`)
